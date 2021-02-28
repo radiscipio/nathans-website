@@ -593,6 +593,8 @@ color: #2c3e50;
 }
 #contact .social i.fa:hover {
 	color: #121d1f;
+	transition: all 1s;
+	transform: scale(1.3);
 }
 #contact .btn {
 	background-color: transparent;
@@ -641,7 +643,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #fff;
 }
 .intro H1 {
-	font-size: 60px;
+	font-size: calc(45px + 2vmin);
 	font-weight: 500;
 	letter-spacing: -2px;
 }
@@ -653,7 +655,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro .intro-text p {
 	font-family: 'Lato', sans-serif;
-	font-size: 20px;
+	font-size: calc(10px + 2vmin);
 	margin-bottom: 40px;
 	margin-top: 20px;
 }
